@@ -1,0 +1,36 @@
+{
+  "name": "Dog Browser",
+  "version": "1.0.0",
+  "description": "Just a simple pratice repo",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --watch=\"index.html,scripts,styles\"",
+    "build": "sass sass:styles",
+    "build:start": "npm run build && npm start",
+    "watch": "sass --watch sass:styles",
+    "watch:start": "concurrently \"npm run watch\" \"npm start\"",
+    "lint": "eslint scripts/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebUp-dci-fbw7/jquery-practice.git"
+  },
+  "author": "Majed Shrendan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WebUp-dci-fbw7/jquery-practice/issues"
+  },
+  "homepage": "https://github.com/WebUp-dci-fbw7/jquery-practice#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.0",
+    "eslint": "^5.0.1",
+    "live-server": "^1.2.0",
+    "sass": "^1.8.0"
+  }
+}
