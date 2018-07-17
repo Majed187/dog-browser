@@ -1,4 +1,4 @@
-# Dog Browser repo
+# DogBrowser repo
 
 **Note**: Please rename this repo in all the appropriate places when you copy it into a new project
 
